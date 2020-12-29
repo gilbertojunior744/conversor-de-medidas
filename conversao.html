@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+    <title>Conversão de Medidas</title>
+</head>
+<body>
+    <div class="topo">
+    <form action="conversao2.jsp" method="$_GET">
+        <h1>Conversão de Medidas:</h1><br>
+    </div>
+    <div class="tipo">
+    <h3>Qual o tipo de Conversão:</h3>
+ 
+        <input type="radio" name="tipo" value="Comprimento">Comprimento
+        <input type="radio" name="tipo" value="Massa">Massa
+        <input type="radio" name="tipo" value="Temperatura">Temperatura
+    <br><br>
+    </div>
+    <div class="valor">
+        <h3>Valor a ser Convertido:</h3>
+        <input name="valor" type="double">
+    </div>
+    <div class="comprimento">
+        <h3>Unidades de Comprimento:</h3>
+        <h3>Qual unidade de medida atual:</h3>
+        <input type="radio" name="unidade1" value="1">Quilometro
+        <input type="radio" name="unidade1" value="2">Metro
+        <input type="radio" name="unidade1" value="3">Centimetro
+        <input type="radio" name="unidade1" value="4">Milimetro
+        <h3>Para qual unidade você quer converter:</h3>
+        <input type="radio" name="unidade2" value="1">Quilometro
+        <input type="radio" name="unidade2" value="2">Metro
+        <input type="radio" name="unidade2" value="3">Centimetro
+        <input type="radio" name="unidade2" value="4">Milimetro
+    </div>
+    <div class="massa">
+        <h3>Unidades de Massa:</h3>
+        <h3>Qual unidade de medida atual:</h3>
+        <input type="radio" name="unidade1" value="5">Tonelada
+        <input type="radio" name="unidade1" value="6">Quilograma
+        <input type="radio" name="unidade1" value="7">Grama
+        <input type="radio" name="unidade1" value="8">Miligrama
+        <h3>Para qual unidade você quer converter:</h3>
+        <input type="radio" name="unidade2" value="5">Tonelada
+        <input type="radio" name="unidade2" value="6">Quilograma
+        <input type="radio" name="unidade2" value="7">Grama
+        <input type="radio" name="unidade2" value="8">Miligrama
+    </div>
+    <div class="temperatura">
+        <h3>Unidades de Temperatura:</h3>
+        <h3>Qual unidade de medida atual:</h3>
+        <input type="radio" name="unidade1" value="9">Celsius
+        <input type="radio" name="unidade1" value="10">Fahrenheit
+        <input type="radio" name="unidade1" value="11">Kelvin
+        <h3>Para qual unidade você quer converter:</h3>
+        <input type="radio" name="unidade2" value="9">Celsius
+        <input type="radio" name="unidade2" value="10">Fahrenheit
+        <input type="radio" name="unidade2" value="11">Kelvin
+        <br><br>
+    </div>
+    <div class="resultado">
+        <input type="submit" value="Converter">
+        <input type="reset" value="Limpar">
+    </div>
+</form>
+   
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background-color: #eee;
+}
+div.topo {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 0px;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    
+}
+div.tipo{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    
+
+}
+div.valor{
+    width: 90%;
+    height: 100px;
+    position: relative;
+    margin-left: 5%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+
+}
+div.comprimento{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 5.5%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    
+
+}
+div.massa{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 35.7%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    
+
+}
+div.temperatura{
+    width: 29%;
+    height: 200px;
+    position: absolute;
+    left: 65.8%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    
+
+}
+div.resultado{
+    width: 90.5%;
+    height: 20px;
+    margin-left:5%;
+    margin-top: 8px;
+    padding-top: 3%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid #333;
+    position: relative;
+    top: 200px;
+}
+div.resultado input{
+    margin-top: -50px;
+}
